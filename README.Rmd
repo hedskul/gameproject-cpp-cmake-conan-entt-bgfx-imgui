@@ -1,0 +1,91 @@
+---
+title: "gameproject-cpp-cmake-conan-entt-bgfx-imgui"
+author: "hedskul"
+date: "`r Sys.Date()`"
+output: github_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  fig.path = "figs/"
+)
+```
+###gameproject-cpp-cmake-conan-entt-bgfx-imgui
+
+## REQUIREMENTS
+
+CPP
+
+## README is created using rmarkdown, knitr, and renv
+
+This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+
+1: Install R <https://cran.rstudio.com/>
+
+2: Install RStudio RStudio requires R 3.6.0+. Choose a version of R that matches your computer’s operating system. <https://posit.co/download/rstudio-desktop/>
+
+3 Recreate RStudio environment. RStudio: File -\> Open Project Browse to README.Rproj
+
+**File - Open Project**
+
+4 R Console:
+
+``` r
+install.packages("renv")
+renv::restore()
+```
+
+## Requirements
+
+```         
+wsl --install
+```
+
+## Installation guide
+
+``` bash
+# hello world
+```
+# python interop
+
+# create/point to a Python env
+
+# then in R:
+
+# reticulate::py_config()
+
+## Including Code
+
+You can include R code in the document as follows:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+# `{r a} # R #`
+
+# `{python b} # Python #`
+
+# `{dot c} # GraphViz #`
+
+# `{mermaid d} # Mermaid #`
+
+# `{bash e} # Bash #`
+
+# `{julia f} # Julia #`
+
+# `{Rcpp g} # Rcpp #`
+
+# `{sql connection=} # SQL #`
+
+# `{stan output.var=} # Stan #`
