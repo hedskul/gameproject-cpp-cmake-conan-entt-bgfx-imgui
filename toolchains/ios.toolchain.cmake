@@ -1,0 +1,7 @@
+
+# iOS toolchain for CMake
+set(CMAKE_SYSTEM_NAME iOS)
+set(CMAKE_OSX_SYSROOT iphoneos)
+set(CMAKE_OSX_DEPLOYMENT_TARGET 11.0)
+set(CMAKE_OSX_ARCHITECTURES "arm64")
+set(CMAKE_XCODE_ATTRIBUTE_ONLY_ACTIVE_ARCH[variant=release] "NO")

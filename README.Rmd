@@ -10,11 +10,22 @@ knitr::opts_chunk$set(
   fig.path = "figs/"
 )
 ```
-###gameproject-cpp-cmake-conan-entt-bgfx-imgui
-
 ## REQUIREMENTS
 
-CPP
+conan
+cmake
+bgfx
+imgui
+
+## Installation guide
+
+``` bash
+# hello world
+conan install . --output-folder=out/build/x64-Debug --build=missing -s build_type=Debug -s compiler.cppstd=17
+conan profile list
+conan profile show default
+conan profile update settings.compiler.cppstd=17 default
+```
 
 ## README is created using rmarkdown, knitr, and renv
 
@@ -34,25 +45,6 @@ This is an R Markdown format used for publishing markdown documents to GitHub. W
 install.packages("renv")
 renv::restore()
 ```
-
-## Requirements
-
-```         
-wsl --install
-```
-
-## Installation guide
-
-``` bash
-# hello world
-```
-# python interop
-
-# create/point to a Python env
-
-# then in R:
-
-# reticulate::py_config()
 
 ## Including Code
 

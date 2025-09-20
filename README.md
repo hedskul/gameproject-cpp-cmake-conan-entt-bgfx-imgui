@@ -1,11 +1,21 @@
-statistical-analysis-notes-r-reticulate-python-quarto-starter-template
+gameproject-cpp-cmake-conan-entt-bgfx-imgui
 ================
 hedskul
-2025-09-14
+2025-09-20
 
 ## REQUIREMENTS
 
-CPP
+conan cmake bgfx imgui
+
+## Installation guide
+
+``` bash
+# hello world
+conan install . --output-folder=out/build/x64-Debug --build=missing -s build_type=Debug -s compiler.cppstd=17
+conan profile list
+conan profile show default
+conan profile update settings.compiler.cppstd=17 default
+```
 
 ## README is created using rmarkdown, knitr, and renv
 
@@ -30,24 +40,6 @@ README.Rproj
 install.packages("renv")
 renv::restore()
 ```
-
-## Requirements
-
-    wsl --install
-
-## Installation guide
-
-``` bash
-# hello world
-```
-
-# python interop
-
-# create/point to a Python env
-
-# then in R:
-
-# reticulate::py_config()
 
 ## Including Code
 
