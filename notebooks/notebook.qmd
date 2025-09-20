@@ -1,0 +1,47 @@
+---
+title: "java-oop-game-gradle-sprintboot-mongodb-r-quarto"
+format: html
+output-dir: _site
+freeze: false
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a
+finished document. To learn more about Quarto see <https://quarto.org>.
+
+```{r}
+1 + 1
+```
+
+Principles of Object-Oriented Design
+
+Divide-and-Conquer Principle. Generally, we will divide solutions to
+problems into sets of interacting objects, each with its own specialized
+tasks,
+
+Encapsulation Principle. Each object will encapsulate the expertise,
+attributes and actions that it needs to carry out its role in the
+solution.
+
+Interface Principle. Each object will present an interface to the other
+objects that will limit the way they interact with each other.
+
+Information Hiding Principle. Objects will be designed to hide certain
+information and implementation details from other objects.
+
+Generality Principle. Objects will be designed as generally as possible.
+So that rather than solving only a particular problem, they can solve
+similar problems of the same kind.
+
+Extensibility Principle. Objects will be designed so that they can
+potentially be extended to perform related tasks.
+
+Abstraction Principle. The objects we design will be abstractions
+because they will ignore many of the attributes and actions that
+characterize the real objects they represent. They will include only 
+those attributes and behaviors needed to solve a particular problem.
+

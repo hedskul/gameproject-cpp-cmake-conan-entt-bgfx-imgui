@@ -1,0 +1,53 @@
+---
+title: "greek-cheat-sheet"
+format: pdf
+---
+
+COMMON IN STATISTICS
+Symbol  Name        LaTeX        Typical use
+
+α        alpha       \alpha       Significance level; Type I error rate
+
+β        beta        \beta        Type II error; regression slope in population; power = 1−β
+
+γ        gamma       \gamma       Shape parameter; Euler’s gamma function context
+δ        delta       \delta       Small difference/change; effect size (Cohen’s δ)
+ε        epsilon     \epsilon     Error term; very small positive quantity
+ζ        zeta        \zeta        Rare in stats; number theory (zeta function)
+η        eta         \eta         Effect size (η²); learning rate in optimization
+θ        theta       \theta       Generic parameter; angle
+κ        kappa       \kappa       Agreement measure (Cohen’s κ); curvature/condition number
+λ        lambda      \lambda      Rate (Poisson/Exponential); regularization (L1/L2)
+μ        mu          \mu          Population mean
+ν        nu          \nu          Degrees of freedom
+ξ        xi          \xi          Latent/hidden variable; order statistics
+π        pi          \pi          Constant ~3.14159; probability of success (sometimes)
+ρ        rho         \rho         Population correlation; intraclass corr; Spearman’s rho
+σ        sigma       \sigma       Population standard deviation; also noise level
+τ        tau         \tau         Kendall’s tau; time constant; precision (1/variance) in Bayes
+φ        phi         \phi         Standard normal pdf; golden ratio context (math)
+χ        chi         \chi         Chi-square distributions/tests
+ψ        psi         \psi         Wave/latent function; digamma (ψ) in advanced stats
+ω        omega       \omega       Frequency; long-run limit; effect size (ω²)
+
+UPPERCASE (COMMON)
+Symbol  Name        LaTeX        Typical use
+Γ        Gamma       \Gamma       Gamma function; gamma distribution normalization
+Δ        Delta       \Delta       Difference/change; Laplacian in math
+Θ        Theta       \Theta       Asymptotic order (CS); parameter set
+Λ        Lambda      \Lambda      Eigenvalue matrix; likelihood ratio statistics
+Π        Pi          \Pi          Product operator
+Σ        Sigma       \Sigma       Covariance matrix; summation (use ∑ for operator)
+∑        Sum         \sum         Summation operator
+Φ        Phi         \Phi         Standard normal CDF
+Χ        Chi         \Chi         Used in names; Chi-square as χ² (lowercase chi)
+Ψ        Psi         \Psi         Vector/function symbol in advanced contexts
+Ω        Omega       \Omega       Sample space; asymptotic lower bound; ohms (physics)
+
+LESS COMMON IN STATS (BUT YOU MAY SEE)
+Symbol  Name        LaTeX        Typical use
+ι        iota        \iota        Identity inclusion; rarely used in stats
+ο        omicron     \omicron     Rare
+υ        upsilon     \upsilon     Rare in stats
+Ξ        Xi          \Xi          Random variable families; transforms
+Υ        Upsilon     \Upsilon     Rare
