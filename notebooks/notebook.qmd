@@ -1,5 +1,7 @@
 ---
-title: "java-oop-game-gradle-sprintboot-mongodb-r-quarto"
+title: "gameproject-cpp-cmake-conan-entt-bgfx-imgui"
+author: "hedskul"
+date: "`r Sys.Date()`"
 format: html
 output-dir: _site
 freeze: false

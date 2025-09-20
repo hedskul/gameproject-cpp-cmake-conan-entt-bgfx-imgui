@@ -4,7 +4,7 @@ project(CrossPlatformGameEngine)
 
 set(CMAKE_CXX_STANDARD 17)
 
-# Conan
+# conan
 include(${CMAKE_BINARY_DIR}/conan_toolchain.cmake)
 include(${CMAKE_BINARY_DIR}/conan_deps.cmake)
 
